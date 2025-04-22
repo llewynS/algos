@@ -1,0 +1,12 @@
+database:
+  dbtype: postgresql
+  dbname: mydbname
+  username: mydbuser
+  password: mydbpassword
+  host: mydburl
+  port: 1234
+ssl:
+  mode: verify-full
+  rootcert: path/to/myrootcert.crt
+  cert: path/to/mycert.crt
+  key: path/to/mykey.key

@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="algos_core",  
+    version="0.1.0",  
+    author="LlewynS",  
+    author_email="algos251@gmail.com",  
+    description="Algorithm OS: An extensible operating system for algorithmic development",
+    long_description=open("README.md").read(),  
+    long_description_content_type="text/markdown",
+    url="https://github.com/LlewynS/algos",  
+    packages=find_packages(include=["algos", "algos.*"]),  
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU Affero General Public License v3",  
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.10", 
+    install_requires=[
+        "matplotlib==3.8.2",
+        "networkx==3.1",
+        "numpy==1.23.5",
+        "optuna==4.2.1",
+        "pandas==1.5.3",
+        "pexpect==4.8.0",
+        "psycopg2-binary==2.9.9",
+        "pysftp==0.2.9",
+        "pytest==7.2.2",
+        "PyYAML==6.0.2", 
+        "scikit-learn==1.3.2",
+        "scipy==1.15.2",
+        "seaborn==0.13.2",
+        "setuptools==65.5.0",
+        "shap==0.46.0",
+        "SQLAlchemy==2.0.21",
+    ],
+)
