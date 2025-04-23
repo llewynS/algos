@@ -5,7 +5,7 @@ Algorithm Operating System (AlgOS) is an unopinionated, extensible, modular fram
 ## Installation
 Install via pip:
 ```sh
-pip install algos_core
+pip install algos
 ```
 
 Install from cloned repository:

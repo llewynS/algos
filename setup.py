@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="algos_core",  
+    name="algos",  
     version="0.1.0",  
     author="LlewynS",  
     author_email="algos251@gmail.com",  
